@@ -1,4 +1,4 @@
-# Heidelpay Demo Shop
+# Arctiq Demo Shop
 
 Initially written as sample for an article on the W3C's Payment Request Api Specification at [javamagazin](https://jaxenter.de/ausgaben/java-magazin-9-19), this Demo Shop is continously extended to provide various samples for the heidelpay Payment Api.
 
