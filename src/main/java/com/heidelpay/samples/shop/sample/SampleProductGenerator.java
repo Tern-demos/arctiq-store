@@ -13,14 +13,14 @@ public class SampleProductGenerator {
 	private static final List<String> titles = Arrays.asList(new String[] {"Arctiq Covid WFH T-Shirt Grey", "Stefansson Surfing Stickers", "Stefansson Baseball Stickers", 
 			"Stefansson Muskoka Stickers", "Stefansson Secure DevOps Stickers", "Arctiq Covid WFH T-Shirt Blue"});
 	private static final List<BigDecimal> prices = Arrays.asList( new BigDecimal[] {
-			new BigDecimal(19.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN), 
 			new BigDecimal(49.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN), 
 			new BigDecimal(9.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN), 
-			new BigDecimal(4.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN),
+			new BigDecimal(9.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN), 
 			new BigDecimal(9.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN),
-			new BigDecimal(7.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN)});
+			new BigDecimal(9.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN),
+			new BigDecimal(49.99).setScale(2,  BigDecimal.ROUND_HALF_EVEN)});
 	
-	private static final List<String> descriptions = Arrays.asList(new String[] {"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!", "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam", "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"});
+	private static final List<String> descriptions = Arrays.asList(new String[] {"Arctiq Merch", "Arctiq Merch", "Arctiq Merch"});
 	
 	
 	public static Product create(int index, String shop) {
